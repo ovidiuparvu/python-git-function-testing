@@ -2,7 +2,7 @@ import os
 import subprocess
 from pathlib import Path
 import pytest
-from src.git import get_current_branch
+from git_function_testing.git import get_current_branch
 from _pytest.fixtures import FixtureRequest
 from typing import Generator
 
